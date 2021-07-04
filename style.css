@@ -7,10 +7,13 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 25px;
+}
 .orange{
     color: rgb(241, 179, 65);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 70px;
 }
@@ -41,4 +44,33 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.information-item{
+    box-shadow: 20px 20px 30px rgb(119, 118, 118);
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 15px;
+    text-align: justify;
+    border-radius: 10px;
+    
+}
+.third{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#educational{
+    border-image: linear-gradient(rgb(235, 165, 36), rgb(240, 114, 92));
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#skills{
+    border-image: linear-gradient(rgb(135, 135, 212), rgb(67, 212, 212));
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+footer p {
+    text-align: center;
 }
